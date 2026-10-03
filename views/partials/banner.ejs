@@ -1,0 +1,38 @@
+<div class="rev-slider">
+    <div class="fullwidthbanner-container">
+        <div class="fullwidthbanner">
+            <div class="bannercontainer">
+                <div class="banner">
+                    <ul>
+                        <% if (typeof slides !== 'undefined' && slides.length > 0) { %>
+                            <% slides.forEach((item, index) => { %>
+                                <li data-transition="boxfade" data-slotamount="20" class="<%= index === 0 ? 'active-revslide current-sr-slide-visible' : 'active-revslide' %>"
+                                    style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: <%= index === 0 ? 'inherit' : 'hidden' %>; opacity: <%= index === 0 ? 1 : 0 %>;">
+                                    <div class="slotholder" style="width:100%;height:100%;">
+                                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover"
+                                            data-bgposition="center center" data-bgrepeat="no-repeat" data-lazydone="undefined"
+                                            src="<%= item.image %>" data-src="<%= item.image %>"
+                                            style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url('<%= item.image %>'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit;">
+                                        </div>
+                                    </div>
+                                </li>
+                            <% }) %>
+                        <% } else { %>
+                            <li data-transition="boxfade" data-slotamount="20" class="active-revslide current-sr-slide-visible"
+                                style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: inherit; opacity: 1;">
+                                <div class="slotholder" style="width:100%;height:100%;">
+                                    <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover"
+                                        data-bgposition="center center" data-bgrepeat="no-repeat" data-lazydone="undefined"
+                                        src="/image/slide/banner1.jpg" data-src="/image/slide/banner1.jpg"
+                                        style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url('/image/slide/banner1.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit;">
+                                    </div>
+                                </div>
+                            </li>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+            <div class="tp-bannertimer"></div>
+        </div>
+    </div>
+</div>

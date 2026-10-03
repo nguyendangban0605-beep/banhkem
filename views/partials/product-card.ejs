@@ -1,0 +1,27 @@
+<div class="single-item">
+    <% if (product.tag) { %>
+        <div class="ribbon-wrapper">
+            <div class="ribbon <%= product.tag.toLowerCase() %>"><%= product.tag.toUpperCase() %></div>
+        </div>
+    <% } %>
+
+    <div class="single-item-header">
+        <a href="#"><img src="<%= product.image %>" alt="<%= product.name %>" style="height: 250px; width: 100%; object-fit: cover;"></a>
+    </div>
+    <div class="single-item-body">
+        <p class="single-item-title"><%= product.name %></p>
+        <p class="single-item-price">
+            <% if (product.originalPrice) { %>
+                <span class="flash-del"><%= product.originalPrice %></span>
+                <span class="flash-sale"><%= product.price %></span>
+            <% } else { %>
+                <span><%= product.price %></span>
+            <% } %>
+        </p>
+    </div>
+    <div class="single-item-caption">
+        <a class="add-to-cart pull-left" href="#"><i class="fa fa-shopping-cart"></i></a>
+        <a class="beta-btn primary" href="#">Mua ngay <i class="fa fa-chevron-right"></i></a>
+        <div class="clearfix"></div>
+    </div>
+</div>

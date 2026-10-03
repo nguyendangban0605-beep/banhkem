@@ -1,0 +1,59 @@
+.fixNav{
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100000000;
+}
+.cart-body{
+	z-index:999;
+}
+.inner-header{
+	background-color: #ffffff
+}
+.inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+	color: black
+}
+.main-menu>ul.l-inline> li> a{
+	color: #fff;
+	padding: 10px 35px
+}
+
+/* Ribbon styling for NEW, SALE, HOT matching teacher's screenshot */
+.ribbon.sale,
+.ribbon.new,
+.ribbon.hot {
+    background-color: #f90 !important;
+}
+
+/* Product Card aesthetics */
+.single-item-header img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.single-item-title {
+    font-size: 15px;
+    color: #666;
+    margin-top: 10px;
+    min-height: 22px;
+}
+
+.single-item-price {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.single-item-price .flash-del {
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.single-item-price .flash-sale {
+    color: #f90;
+    font-weight: 600;
+}
