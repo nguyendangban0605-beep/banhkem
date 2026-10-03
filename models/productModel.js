@@ -1,32 +1,32 @@
 const newProducts = [
   {
     id: 1,
-    name: "Bánh kem dâu",
-    price: "350.000đ",
+    name: "Bánh kem dâu tây Pháp",
+    price: "365.000đ",
     originalPrice: null,
     tag: "new",
     image: "/image/product/banhkem-dau.jpg"
   },
   {
     id: 2,
-    name: "Bánh su kem cà phê",
-    price: "99.000đ",
-    originalPrice: "120.000đ",
+    name: "Bánh su kem sốt cà phê mocha",
+    price: "105.000đ",
+    originalPrice: "135.000đ",
     tag: "sale",
     image: "/image/product/banh-su-kem-ca-phe-1.jpg"
   },
   {
     id: 3,
-    name: "Cupcake",
-    price: "45.000đ",
+    name: "Cupcake cầu vồng mini",
+    price: "50.000đ",
     originalPrice: null,
     tag: null,
     image: "/image/product/cupcake.jpg"
   },
   {
     id: 4,
-    name: "Crepe chocolate",
-    price: "60.000đ",
+    name: "Bánh Crepe sốt socola Bỉ",
+    price: "65.000đ",
     originalPrice: null,
     tag: null,
     image: "/image/product/crepe-chocolate.jpg"
@@ -36,64 +36,64 @@ const newProducts = [
 const topProducts = [
   {
     id: 5,
-    name: "Mango mousse cake",
-    price: "280.000đ",
+    name: "Bánh Mousse xoài nhiệt đới",
+    price: "290.000đ",
     originalPrice: null,
     tag: "hot",
     image: "/image/product/mango-mousse-cake.jpg"
   },
   {
     id: 6,
-    name: "Matcha mousse",
-    price: "230.000đ",
-    originalPrice: "260.000đ",
+    name: "Bánh Mousse trà xanh Uji",
+    price: "240.000đ",
+    originalPrice: "270.000đ",
     tag: "sale",
     image: "/image/product/MATCHA-MOUSSE.jpg"
   },
   {
     id: 7,
-    name: "Macaron",
-    price: "90.000đ",
+    name: "Macaron hạnh nhân ngũ sắc",
+    price: "95.000đ",
     originalPrice: null,
     tag: null,
     image: "/image/product/Macaron9.jpg"
   },
   {
     id: 8,
-    name: "Pizza Miami",
-    price: "150.000đ",
+    name: "Bánh Pizza Miami hải sản",
+    price: "165.000đ",
     originalPrice: null,
     tag: null,
     image: "/image/product/pizza-miami.jpg"
   },
   {
     id: 9,
-    name: "Fruit cake",
-    price: "320.000đ",
+    name: "Bánh bông lan trái cây tươi",
+    price: "330.000đ",
     originalPrice: null,
     tag: "hot",
     image: "/image/product/Fruit-Cake.jpg"
   },
   {
     id: 10,
-    name: "Bánh trái cây",
-    price: "200.000đ",
+    name: "Tart trái cây thập cẩm",
+    price: "210.000đ",
     originalPrice: null,
     tag: null,
     image: "/image/product/banhtraicay.jpg"
   },
   {
     id: 11,
-    name: "Crepe Pháp",
-    price: "70.000đ",
+    name: "Bánh Crepe chuối nướng Pháp",
+    price: "75.000đ",
     originalPrice: null,
     tag: null,
     image: "/image/product/crepe-phap.jpg"
   },
   {
     id: 12,
-    name: "Su kem dâu",
-    price: "55.000đ",
+    name: "Bánh Su kem nhân dâu tươi",
+    price: "59.000đ",
     originalPrice: null,
     tag: null,
     image: "/image/product/sukemdau.jpg"
